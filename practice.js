@@ -15,6 +15,10 @@
 */
 
 //Code here
+var me = {
+  name:"Danielle",
+  age:30
+};
 
 
 
@@ -26,7 +30,14 @@
 */
 
 //Code here
-
+var favoriteThings = {
+  band: "U2",
+  food: "pizza",
+  person: "Adelaine",
+  book: "power of love",
+  movie: "Eulogy",
+  holiday: "Halloween"
+};
 
 
 /*
@@ -34,7 +45,8 @@
 */
 
 //Code here
-
+favoriteThings.car = "Jeep"
+favoriteThings.brand = "HP"
 
 
 /*
@@ -42,7 +54,8 @@
 */
 
 //Code here
-
+favoriteThings.food = "Chicken Nuggets"
+favoriteThings.book = "Harry Potter"
 
 
 ////////// PROBLEM 3 //////////
