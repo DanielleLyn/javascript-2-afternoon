@@ -69,12 +69,18 @@ favoriteThings.book = "Harry Potter"
 */
 
 //Code here
-
-
+var backPack = { 
+}
+var item = 'firstPocket';
+backPack[item] = 'chapstick';
+backPack.color = "grey"
 
 /*
   After you do the above, alert your entire backPack object.
 */
+
+
+
 
 //Code here
 
@@ -87,7 +93,7 @@ Instead, console.log your whole backPack object and then check out the console.
 */
 
 //Code here
-
+console.log(backPack);
 
 
 ////////// PROBLEM 4 //////////
@@ -110,7 +116,8 @@ var user2 = {
 */
 
 //Code Here
-
+user2.name = 'Tyler S. McGinnis';
+user2.email = 'tyler.mcginnis@devmounta.in'
 
 
 
@@ -133,7 +140,8 @@ var user2 = {
 */
 
 //Code Here
-
+var methodCollection = {
+}
 
 
 /*
@@ -141,8 +149,12 @@ var user2 = {
   One called 'alertHello' which alerts 'hello' and another method called 'logHello' which logs 'hello' to the console. 
 */
 
-//Code Here
 
+
+//Code here 
+
+methodCollection.alertHello = function(){alert('hello')};
+methodCollection.logHello = function(){console.log('hello')};
 
 
 /*
@@ -160,7 +172,9 @@ var user2 = {
   Return a new object with all of the information that you passed in.
 */
 
-//Code Here
+function makePerson(name, birthday, ssn){
+  return{name, birthday, ssn}
+};
 
 
 
@@ -171,6 +185,13 @@ var user2 = {
   Return that object so that whenever you invoke makeCard, you get a brand new credit card.
 */
 
-//Code Here
+function makeCard(cardNumber, expirationDate, securityCode){
+  var object = {
+    cardNumber: cardNumber,
+    expirationDate: expirationDate,
+    securityCode: securityCode
+  }
+  return object
+}
 
 
